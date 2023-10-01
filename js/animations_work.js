@@ -16,7 +16,13 @@ let sql = document.getElementById('sql');
 
 
 
+function view_page(page_link){
+   window.open(page_link,'_blank');
+}
 
+function view_code(code_link){
+    window.open(code_link,'_blank');
+}
 
 
 console.log(js);
