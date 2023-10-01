@@ -43,7 +43,14 @@ function show_nav(){
     }
 }
 
-
+function show_notification(){
+ notification.children[1].textContent='Will be deployed later';
+ console.log(notification.children[1].textContent)
+  notification.style.display='flex'
+  setTimeout(() => {
+    notification.style.display='none'
+  }, 2000);
+}
 
 function change_color(div,upper_div,last_div_upper){
   if(lastclickdiv !==null){
